@@ -19,7 +19,7 @@ class WhyWeUs extends Component {
                             <p>Lorem Ipsum passages, and more recently with desktop publishing software like aldus pageMaker including versions of all the Lorem Ipsum generators on thet Internet tends to repeat predefined chunks as necessary, making this an web evolved over the years, sometimes by accident.</p>
                         </div> 
                         <div className="row mt-4">
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-md-6">
                                 <div className="wh-block">
                                     <div className="wh-block-img">
                                         <img src={WhyIcon1} alt="WhyIcon1" />
@@ -28,7 +28,7 @@ class WhyWeUs extends Component {
                                     <p>The fixed fare is set in every taximeter as the main tariff</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-md-6">
                                 <div className="wh-block">
                                     <div className="wh-block-img">
                                         <img src={WhyIcon2} alt="WhyIcon1" />
@@ -37,7 +37,7 @@ class WhyWeUs extends Component {
                                     <p>The fixed fare is set in every taximeter as the main tariff</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-md-6">
                                 <div className="wh-block">
                                     <div className="wh-block-img">
                                         <img src={WhyIcon3} alt="WhyIcon1" />
@@ -46,7 +46,7 @@ class WhyWeUs extends Component {
                                     <p>The fixed fare is set in every taximeter as the main tariff</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 col-md-6">
                                 <div className="wh-block">
                                     <div className="wh-block-img">
                                         <img src={WhyIcon4} alt="WhyIcon1" />

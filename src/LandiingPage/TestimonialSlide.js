@@ -10,6 +10,14 @@ class TestimonialSlide extends Component {
         1025 : {
             items : 1
 
+        },
+        1024 : {
+            items : 1
+
+        },
+        0 : {
+            items : 1
+
         }
     }
     return (
