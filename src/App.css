@@ -1,0 +1,281 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #777777;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+*, a{
+  transition: all ease .3s;
+}
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 41px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+  line-height: 20px;
+}
+
+.font-light{
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.header-block {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+.header-block .nav-link {
+  padding: 0;
+}
+.logo.nav-link {
+  width: auto;
+  float: left;
+}
+
+.contact-us.nav-link {
+  background:#ffe303;
+  width: 175px;
+  height: 50px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 51px;
+  color:#084484;
+  font-size: 14px;
+  margin: 25px 0 0;
+}
+.banner-home {
+  background: url(./img/home-banner.jpg) top center no-repeat;
+  background-size: auto;
+  background-size: cover;
+}
+
+.banner-box {
+  padding: 150px 0 300px;
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.banner-home .banner-box h1 {
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.banner-home .banner-box p {
+  line-height: 20px;
+  color:#fff;
+}
+
+.font-16{
+  font-size: 16px;
+}
+
+
+.search-section{
+  position: relative;
+}
+
+.search-bg{
+  background:#fdb531;
+text-align: center;
+position: relative;
+margin-top: -40px;
+}
+
+.search-bg::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -30px;
+  background: url(./img/left-shadow.png) no-repeat left bottom;
+  width: 375px;
+  height: 30px;
+}
+
+.search-bg::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: -30px;
+  background: url(./img/right-shadow.png) no-repeat right bottom;
+  width: 375px;
+  height: 30px;
+}
+.search-bg figure img {
+  margin-top: -240px;
+}
+
+.search-bg .nav-pills .nav-link {
+  border-radius: 0;
+  border: 1px solid #fff;
+  padding: 0;
+  margin: 0 15px;
+}
+
+.search-bg .nav-pills .nav-link:hover, .search-bg .nav-pills .nav-link.active, .search-bg .nav-pills .show > .nav-link{
+  background-color: #084484;
+  border-color:#084484;
+}
+
+.search-from{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.search-from .form-control{
+  width: 22%;
+  border: none;
+  border-radius: 0px;
+}
+
+.search-from button {
+  background: #084484;
+  border: none;
+  width: 75px;
+  height: 38px;
+}
+
+
+/*******************       OOUR BENIFIT SECTION START         *********************/
+.section-title {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.our-benefits {
+  background: url(./img/our-benefits-banner.jpg) center center no-repeat;
+  background-size: auto;
+  background-size: cover;
+  padding:50px 0 10px;
+}
+.section-title h3 {
+  color: #fdb531;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.our-benefits .section-title h2 {
+  color: #fff;
+}
+.section-title h2 {
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+.benefits-colm {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0 40px;
+}
+.benefits-colm h3 {
+  color: #fff;
+  padding: 15px 0 10px;
+  font-size: 25px;
+}
+.benefits-colm p {
+  color: #fff;
+}
+
+.how-we-work{
+  padding: 50px 0;
+  position: relative;
+}
+
+.how-we-work h2{
+  color: #ffba00;
+}
+.how-we-work h2 span{
+  color: #084484;
+}
+
+.work-block{
+  color:#6d6d6d;
+  background-color:rgba(255,255,255,0);
+  border-color:rgba(255,255,255,0);
+  position: relative;
+  padding-top: 3.2em;
+}
+
+.work-icon+ .work-info {
+  padding-top: 4.9em;
+}
+
+.work-icon {
+  background: #084484;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  border: 8px solid #191717;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-info{
+  background-color: #191717;
+  padding: 2em 1.5em 2em;
+  text-align: center;
+  border-radius: 6px;
+  transition: all ease .3s;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.work-info h3{
+  font-size: 22px;
+  color: #fff;
+}
+
+.work-info p{
+  transition: all ease .3s;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color:#fff;
+  font-size: 14px;
+}
+
+.work-block:hover .work-info {
+  background: #084484;
+}
+
+.work-block:hover .work-icon {
+  border-color: 
+  #084484;
+}
