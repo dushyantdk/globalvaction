@@ -386,6 +386,7 @@ margin-top: -40px;
 footer{
   background-image: url(./img/footer-bg.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 50px 0;
 }
 .address-title{
@@ -500,4 +501,101 @@ footer{
   background: #084484;
   border-radius: 50px;
   border: none;
+}
+
+@media screen and (max-width: 990px) {
+  .explore-now {
+    float: none;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .why-img {
+    width: 100%;
+    text-align: center;
+}
+.test-block {
+  padding: 45px;
+}
+.follow-block {
+  float: left;
+  margin: 0 0 30px;
+}
+.test-block h2 {
+  margin-bottom: 30px;
+}
+.test-block .item h3{
+  font-size: 28px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .banner-home .banner-box {
+		padding: 130px 25px 150px;
+		max-width: 100%;
+	}
+	.banner-home .banner-box h1 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.inner-banner .banner-box {
+		padding: 130px 25px 60px;
+		max-width: 100%;
+	}
+	.banner-home .banner-box p {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.inner-banner .banner-box h1 {
+		font-size: 30px;
+	}
+	.inner-banner .banner-box p {
+		font-size: 18px;
+		line-height: 22px;
+  }
+  .search-section figure img {
+    margin-top: -80px;
+    max-width: 60%;
+}
+.search-bg .nav-pills .nav-link{
+  margin: 0 5px;
+}
+.search-from .form-control {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  margin: 0 0 10px;
+}
+
+.search-from button {
+  width: 100%;
+}
+
+.logo.nav-link img {
+  width: 75%;
+}
+
+.why-title {
+  text-align: center;
+}
+
+.wh-block {
+  margin: 20px 0 0;
+  text-align: center;
+}
+.address-title h1{
+  font-size: 33px;
+}
+.address-title {
+  margin-bottom: 30px;
+}
+.address-title h1 span {
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.work-block{
+  margin: 40px 0 0;
+}
+
 }
