@@ -5,6 +5,7 @@ import WhyIcon2 from '../img/why-icon-2.png';
 import WhyIcon3 from '../img/why-icon-3.png';
 import WhyIcon4 from '../img/why-icon-4.png';
 import { Nav} from 'react-bootstrap';
+import Scrollchor from 'react-scrollchor';
 
 class WhyWeUs extends Component {
   render() {
@@ -57,7 +58,7 @@ class WhyWeUs extends Component {
                         </div>
                         <div className="row mt-5">
                             <div className="col-lg-12">
-                                <Nav.Link className="explore-now" href="/">Explore Now!</Nav.Link>
+                                <Scrollchor className="explore-now" to="#footer">Explore Now!</Scrollchor>
                             </div>
                         </div>
                     </div>
