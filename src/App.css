@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #777777;
   line-height: 25px;
@@ -10,7 +10,7 @@ body {
   transition: all ease .3s;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -88,7 +88,7 @@ p {
   font-size: 16px;
 }
 
-
+/*******************    SEARCH BLOCK SECTION START         *********************/
 .search-section{
   position: relative;
 }
@@ -157,7 +157,53 @@ margin-top: -40px;
   height: 38px;
 }
 
+/*******************       WHY US SECTION START         *********************/
+.why-we-us{
+  padding:100px 0 50px;
+  position: relative;
+}
 
+.why-title h2{
+  color: #444340;
+}
+
+.why-title h2 span{
+  color: #ffba00;
+}
+
+.wh-block h4{
+  font-size: 18px;
+  color: #084484;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 10px 0 5px;
+}
+
+.wh-block p{
+  font-size: 14px;
+  color: #777777;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.explore-now.nav-link {
+  background: #084484;
+  color:#f5fdff;
+  width: 135px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 39px;
+  padding: 0;
+  font-size: 14px;
+}
 /*******************       OOUR BENIFIT SECTION START         *********************/
 .section-title {
   text-align: center;
@@ -199,6 +245,9 @@ margin-top: -40px;
 .benefits-colm p {
   color: #fff;
 }
+
+
+/*******************      HOW WE WORK SECTION START         *********************/
 
 .how-we-work{
   padding: 50px 0;
@@ -278,4 +327,169 @@ margin-top: -40px;
 .work-block:hover .work-icon {
   border-color: 
   #084484;
+}
+
+
+/*******************      TESTIMONIAL SECTION START         *********************/
+.pull-right{
+  float: right;
+}
+.testimonial{
+  position: relative;
+  background: #f8f8f8;
+}
+
+.testimonial-bg{
+  background-image: url(./img/testi.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+}
+
+.test-block{
+  padding: 50px;
+}
+
+.test-block h2{
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+.test-block h2 span{
+  color:#084484;
+}
+
+.test-block .item h3{
+  font-size: 32px;
+  color:#084484;
+  margin-bottom:18px;
+}
+
+.test-block .item p.font-32{
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background:#084484 !important;
+}
+
+footer{
+  background-image: url(./img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.address-title{
+  margin-bottom: 70px;
+}
+.address-title h1 {
+  color:#fff;
+  font-size: 53px;
+  font-weight: 300;
+}
+
+.address-title h1 span {
+  display: block;
+  font-weight: 900;
+  font-size: 87px;
+  line-height: 55px;
+}
+
+.address-block{
+  width: 100%;
+  float: left;
+  color:#fff;
+  margin: 0 0 20px;
+}
+
+.address-block h4{
+  font-size: 22px;
+}
+
+.address-block ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.address-block ul li {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.address-block ul li:first-child{
+  background-image: url(./img/map-pin.png);
+}
+
+.address-block ul li:nth-child(2), .address-block ul li:nth-child(3){
+  background-image: url(./img/call.png);
+}
+
+.address-block ul li:last-child{
+  background-image: url(./img/mail.png);
+}
+
+.address-block ul li:last-child a{
+  color:#fff;
+  padding: 0;
+}
+
+.follow-block{
+  float: left;
+}
+
+.follow-block h4{
+  font-size: 22px;
+  color:#fff;
+}
+
+.follow-block ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.follow-block ul li:first-child{
+  padding-left: 0;
+}
+
+.follow-block ul li {
+  float: left;
+  padding: 0 5px;
+}
+
+.follow-block ul li a {
+  background:#fff;
+  font-size: 22px;
+  border-radius: 50%;
+  color: #084484;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  padding: 8px 0 0;
+
+}
+
+.contact-from{
+  background: #ffe303;
+  padding: 50px;
+}
+
+.contact-from .form-control{
+  border-radius: 0px;
+  border: none;
+}
+
+.Send-btn{
+  width: 200px;
+  height: 55px;
+  font-size: 18px;
+  color:#fff;
+  text-transform: uppercase;
+  background: #084484;
+  border-radius: 50px;
+  border: none;
 }
