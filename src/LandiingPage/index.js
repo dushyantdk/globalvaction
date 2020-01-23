@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
 import SearchSection from './SearchSection';
+import WhyWeUs from './WhyWeUs';
 import OurBenifits from './OurBenifits';
 import HowWeWork from './HowWeWork';
+import Testimonial from './Testimonial';
+import Footer from './Footer';
 
 class LandiingPage extends Component {
   render() {
@@ -10,8 +13,11 @@ class LandiingPage extends Component {
         <div> 
           <Banner/>
           <SearchSection/>
+          <WhyWeUs/>
           <OurBenifits/>
           <HowWeWork/>
+          <Testimonial/>
+          <Footer/>
         </div>
     );
   }
