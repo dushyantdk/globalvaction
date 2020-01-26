@@ -3,8 +3,10 @@ import FixedPrice from '../img/fixed-price.png';
 import NoFee from '../img/no-fee.png';
 import Pleasure from '../img/pleasure.png';
 import Nationwide from '../img/nationwide.png';
-import EasyToUse from '../img/easy-to-use.png';
+import SupportIcon from '../img/support.png';
 import BonusForRide from '../img/bonuse--for-ride.png';
+import SafeDrive from '../img/safe-drive.png';
+import GpsIcon from '../img/gps.png';
 
 class OurBenifits extends Component {
   render() {
@@ -23,22 +25,22 @@ class OurBenifits extends Component {
             <div className="col-md-4">
               <div className="benefits-colm">
                 <img src={FixedPrice} alt="Fixed Price" />	
-                <h3>Fixed Price</h3>	
-                <p>The fixed fare is set in every taximeter as the main tariff.</p>
+                <h3>Spirited Rates</h3>	
+                <p>BEST PRICE GUARANTEE for hospitable services</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="benefits-colm">
-                <img src={NoFee} alt="No Fee" />	
-                <h3>No Fee</h3>	
-                <p>We guarantee fixed price and you should not pay tips.</p>
+                <img src={SafeDrive} alt="No Fee" />	
+                <h3>Safe Drive</h3>	
+                <p>All cars equipped with safety features i.e. Airbags / ABS / EBD</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="benefits-colm">
-                <img src={Pleasure} alt="100% Pleasure" />	
-                <h3>100% Pleasure</h3>	
-                <p>We have a lot of standing customer and high ratings.</p>
+                <img src={GpsIcon} alt="100% Pleasure" />	
+                <h3>GPS Monitoring</h3>	
+                <p>24X7 in our office by dedicated staff for security of guest</p>
               </div>
             </div>
           </div>		
@@ -46,22 +48,22 @@ class OurBenifits extends Component {
             <div className="col-md-4">
               <div className="benefits-colm">
                 <img src={Nationwide} alt="Nationwide" />	
-                <h3>Nationwide</h3>	
-                <p>Our application is the easiest way to book a taxi.</p>
+                <h3>Professional</h3>	
+                <p>Well-mannered & uniformed chauffeurs</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="benefits-colm">
-                <img src={EasyToUse} alt="Easy to use" />	
-                <h3>Easy to use</h3>	
-                <p>Orci varius natoque penatibus et magnis dis parturient montes,mus.</p>
+                <img src={Pleasure} alt="Easy to use" />	
+                <h3>Happy Clients</h3>	
+                <p>More than 100K+ satisfied customers across India</p>
               </div>
             </div>
             <div className="col-md-4">
               <div className="benefits-colm">
-                <img src={BonusForRide} alt="100% Pleasure" />	
-                <h3>Bonuses for Ride</h3>	
-                <p>Phasellus l et porta tortor dignissim at. Pellentesque gravida tortormollis.</p>
+                <img src={SupportIcon} alt="100% Pleasure" />	
+                <h3>Support</h3>	
+                <p>Our team will assist you even you need us while travelling</p>
               </div>
             </div>
           </div>	

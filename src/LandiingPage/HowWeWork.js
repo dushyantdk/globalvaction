@@ -13,7 +13,9 @@ class HowWeWork extends Component {
                         <div className="how-we-title">
                             <p className="font-light">Main features</p>
                             <h2>HOW WE <span>WORK</span></h2>
-                            <p className="font-14">GetCab service helps you to find the highest quality taxi services anytime. Our drivers are uniformed, fully licensed and the office staff is trained to the highest standards.We can help you to save time and money. Our main idea is based on establishing a direct connection between drivers and passengers.</p>
+                            <p className="font-14">You come to us with a plan to your holiday or business destination or your trip planner sends us your needs and we assign our vehicles and our chauffeur with you. 
+Our drivers are uniformed, fully licensed and are trained to the highest standards. We can help you to save time and money. Our main idea is based on linking drivers and passengers and best route for enjoyable touring experience.
+</p>
                         </div>
                     </div>
                 </div>
@@ -24,9 +26,9 @@ class HowWeWork extends Component {
                                 <img src={SearchIcon} alt="" />
                             </div>
                             <div className="work-info">
-                                <h3>Search</h3>
+                                <h3>YOUR TRIP PLAN</h3>
                                 <p>
-                                    Enter your origin & select favourite destination city decide your vacation / holiday dates
+                                You have a plan for your favourite destination city and we align cab and chauffeur with your needs
                                 </p>
                             </div>
                         </div>
@@ -37,9 +39,9 @@ class HowWeWork extends Component {
                                 <img src={CarIcon} alt="" />
                             </div>
                             <div className="work-info">
-                                <h3>Select Car</h3>
+                                <h3>CONTACT YOU</h3>
                                 <p>
-                                Choose your cab from a wide range of fleets from budget , family to luxury cars.
+                                We will message you and your trip planner, our chauffeur will call you and finalise pickup location
                                 </p>
                             </div>
                         </div>
@@ -50,9 +52,9 @@ class HowWeWork extends Component {
                                 <img src={PayIcon} alt="" />
                             </div>
                             <div className="work-info">
-                                <h3>Pay & Book</h3>
+                                <h3>ENJOY YOUR TRAVEL</h3>
                                 <p>
-                                Easy payment & multiple online booking options Choose yours & get confirmation instantly.
+                                Our trained chauffeur will with you for your whole trip and let all road hassles on us
                                 </p>
                             </div>
                         </div>

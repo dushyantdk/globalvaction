@@ -16,21 +16,25 @@ class Footer extends Component {
                             </h1>
                         </div>
                         <div className="address-block">
-                            <h4>Visit our Office:</h4>
+                            <h4>VISIT US OR CALL US:</h4>
                             <ul>
-                                <li>Global Discover Vactions, SCO -129-130, Sec-34C, CHD</li>
-                                <li>345-677-554</li>
-                                <li>323-678-567</li>
-                                <li><Nav.Link href="/">info@globalvaction.com</Nav.Link></li>
+                                <li className="font-32">Global Tourism & Resorts </li>
+                                <li>SCO - 188-190, Sec-34A, Ground Floor, Chandigarh</li>
+                                <li>+91 172 401 2779</li>
+                                <li>+91 8699 12370-73, 9357 580 005</li>
+                                <li>
+                                    <Nav.Link href="/">info@exploreholidays.in</Nav.Link>
+                                    <Nav.Link href="/">transport@exploreholidays.in</Nav.Link>
+                                </li>
                             </ul>
                         </div>
                         <div className="follow-block">
                             <h4>Follow Us On:</h4>
                             <ul>
-                                <li><a href="javascripitvoid(0);"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="javascripitvoid(0);"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.facebook.com/Global-Tourism-Resorts-108930407321637/"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/viky_global/"><i class="fab fa-instagram"></i></a></li>
                                 <li><a href="javascripitvoid(0);"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="javascripitvoid(0);"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/VikramK61128786"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>

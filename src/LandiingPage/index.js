@@ -5,6 +5,7 @@ import WhyWeUs from './WhyWeUs';
 import OurBenifits from './OurBenifits';
 import HowWeWork from './HowWeWork';
 import Testimonial from './Testimonial';
+import Clients from './Clients';
 import Footer from './Footer';
 
 
@@ -18,6 +19,7 @@ class LandiingPage extends Component {
           <OurBenifits/>
           <HowWeWork/>
           <Testimonial/>
+          <Clients/>
           <Footer/>
         </div>
     );

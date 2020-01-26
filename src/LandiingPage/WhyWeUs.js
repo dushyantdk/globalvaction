@@ -16,7 +16,7 @@ class WhyWeUs extends Component {
                     <div className="col-lg-8">
                         <div className="why-title">
                             <h2>Why We <span>Are</span></h2>
-                            <p>Lorem Ipsum passages, and more recently with desktop publishing software like aldus pageMaker including versions of all the Lorem Ipsum generators on thet Internet tends to repeat predefined chunks as necessary, making this an web evolved over the years, sometimes by accident.</p>
+                            <p>A large fleet of Cars and Coaches and with countrywide service to business accounts & leading Online Travel Management Companies in INDIA. 70 years of experience of chauffeuring anywhere you say and we tour you on your trip and on fleet of more than 150+ Sedans, MUVs/ SUVs and Tempo Travel.</p>
                         </div> 
                         <div className="row mt-4">
                             <div className="col-lg-3 col-md-6">
@@ -24,8 +24,8 @@ class WhyWeUs extends Component {
                                     <div className="wh-block-img">
                                         <img src={WhyIcon1} alt="WhyIcon1" />
                                     </div>
-                                    <h4>+265 Million</h4>
-                                    <p>The fixed fare is set in every taximeter as the main tariff</p>
+                                    <h4>1 Million</h4>
+                                    <p>Kilometres CLOCKED EVERY MONTH</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
@@ -33,8 +33,8 @@ class WhyWeUs extends Component {
                                     <div className="wh-block-img">
                                         <img src={WhyIcon2} alt="WhyIcon1" />
                                     </div>
-                                    <h4>+265 Million</h4>
-                                    <p>The fixed fare is set in every taximeter as the main tariff</p>
+                                    <h4>+100 Cities</h4>
+                                    <p>Covered with our clients for Enjoyable trips.</p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
@@ -42,8 +42,8 @@ class WhyWeUs extends Component {
                                     <div className="wh-block-img">
                                         <img src={WhyIcon3} alt="WhyIcon1" />
                                     </div>
-                                    <h4>+265 Million</h4>
-                                    <p>The fixed fare is set in every taximeter as the main tariff</p>
+                                    <h4>70 YEARS</h4>
+                                    <p>Experience in chauffeuring  </p>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
@@ -51,8 +51,8 @@ class WhyWeUs extends Component {
                                     <div className="wh-block-img">
                                         <img src={WhyIcon4} alt="WhyIcon1" />
                                     </div>
-                                    <h4>+265 Million</h4>
-                                    <p>The fixed fare is set in every taximeter as the main tariff</p>
+                                    <h4>+150 CABS</h4>
+                                    <p>Spotless vehicles in safe hands and so are you.</p>
                                 </div>
                             </div>
                         </div>

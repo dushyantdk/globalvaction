@@ -44,7 +44,7 @@ class SearchSection extends Component {
                                 <Form.Control placeholder="From" />
                                 <Form.Control placeholder="To" />
                                 <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropUp" />
+                                <Form.Control placeholder="DropTo" />
                                 <button><img src={SubmitBtn} alt="Submit Button" /></button>
                               </Form>
                             </Tab.Pane>
@@ -53,7 +53,7 @@ class SearchSection extends Component {
                                 <Form.Control placeholder="From" />
                                 <Form.Control placeholder="To" />
                                 <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropUp" />
+                                <Form.Control placeholder="DropTo" />
                                 <button><img src={SubmitBtn} alt="Submit Button" /></button>
                               </Form>
                             </Tab.Pane>
@@ -62,7 +62,7 @@ class SearchSection extends Component {
                                 <Form.Control placeholder="From" />
                                 <Form.Control placeholder="To" />
                                 <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropUp" />
+                                <Form.Control placeholder="DropTo" />
                                 <button><img src={SubmitBtn} alt="Submit Button" /></button>
                               </Form>
                             </Tab.Pane>
@@ -71,7 +71,7 @@ class SearchSection extends Component {
                                 <Form.Control placeholder="From" />
                                 <Form.Control placeholder="To" />
                                 <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropUp" />
+                                <Form.Control placeholder="DropTo" />
                                 <button><img src={SubmitBtn} alt="Submit Button" /></button>
                               </Form>
                             </Tab.Pane>

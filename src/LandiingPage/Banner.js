@@ -5,9 +5,9 @@ class Banner extends Component {
     return (
         <section className="banner-home">
             <div className="banner-box">
-            <p>Consetetur Adipiscin</p>    
-            <h1>Trusted Travel Agency</h1>
-            <p className="font-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut arcu id risus viverra ultricies non et sem. Sed pharetra porta turpis mollis commodo.</p>
+            <p>Global Tourism & Resports</p>    
+            <h1>YOUR TRUSTED TRAVEL PARTNER</h1>
+            <p className="font-16">For three generations serving the northern visitors, visiting lush green plains of Punjab, Haryana, Rajasthan or snow-capped mountains easier said than done to reach with tough terrains in Himachal Pradesh.</p>
             </div>
         </section>
     );
