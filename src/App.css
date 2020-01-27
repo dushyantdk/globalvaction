@@ -83,6 +83,17 @@ p {
   line-height: 1;
 }
 
+.banner-home .banner-box h2 {
+  font-size: 26px;
+  color:#fff;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1;
+
+}
+
 .banner-home .banner-box p {
   line-height: 20px;
   color:#fff;
@@ -248,7 +259,7 @@ margin-top: -40px;
 .benefits-colm h3 {
   color: #fff;
   padding: 15px 0 10px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .benefits-colm p {
   color: #fff;
@@ -541,6 +552,10 @@ footer{
   -webkit-transition: .2s ease all;
 }
 
+.clients ul li img {
+  max-width: 100%;
+}
+
 .clients ul li:hover {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
   -webkit-transition: .2s ease all;
@@ -549,6 +564,13 @@ footer{
 }
 
 @media screen and (max-width: 990px) {
+  .clients ul{
+    flex-wrap: wrap;
+  }
+
+  .clients ul li{
+    margin-bottom: 20px;
+  }
   .explore-now {
     float: none;
     margin: 0 auto;
