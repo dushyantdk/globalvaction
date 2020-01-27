@@ -11,7 +11,6 @@ class HowWeWork extends Component {
                 <div className="row justify-content-center text-center mb-5">
                     <div className="col-lg-9">
                         <div className="how-we-title">
-                            <p className="font-light">Main features</p>
                             <h2>HOW WE <span>WORK</span></h2>
                             <p className="font-14">You come to us with a plan to your holiday or business destination or your trip planner sends us your needs and we assign our vehicles and our chauffeur with you. 
 Our drivers are uniformed, fully licensed and are trained to the highest standards. We can help you to save time and money. Our main idea is based on linking drivers and passengers and best route for enjoyable touring experience.
