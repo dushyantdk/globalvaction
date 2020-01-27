@@ -16,8 +16,8 @@ class OurBenifits extends Component {
           <div className="row">
             <div className="col-sm-12">
               <div className="section-title">
-                <h3>MAIN FEATURES</h3>
-                <h2>Our Benefits</h2>
+                {/* <h3>MAIN FEATURES</h3> */}
+                <h2>NOTABLE FEATURES</h2>
               </div>
             </div>
           </div>	
@@ -62,7 +62,7 @@ class OurBenifits extends Component {
             <div className="col-md-4">
               <div className="benefits-colm">
                 <img src={SupportIcon} alt="100% Pleasure" />	
-                <h3>Support</h3>	
+                <h3>Top Notch Support</h3>	
                 <p>Our team will assist you even you need us while travelling</p>
               </div>
             </div>
