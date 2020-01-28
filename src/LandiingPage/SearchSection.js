@@ -5,7 +5,8 @@ import LongDistance from '../img/long-distance.png';
 import Local from '../img/local.png';
 import Airport from '../img/airport.png';
 import SubmitBtn from '../img/submit-btn.png';
-import {Row, Col, Tab, Nav, Form} from 'react-bootstrap'
+import {Row, Col, Tab, Nav, Form, OverlayTrigger, ButtonToolbar, Tooltip} from 'react-bootstrap';
+
 
 class SearchSection extends Component {
   render() {
@@ -41,38 +42,91 @@ class SearchSection extends Component {
                           <Tab.Content>
                             <Tab.Pane eventKey="first">
                               <Form className="search-from">
-                                <Form.Control placeholder="From" />
-                                <Form.Control placeholder="To" />
-                                <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropTo" />
-                                <button><img src={SubmitBtn} alt="Submit Button" /></button>
+                                <Form.Control placeholder="Name" />
+                                <Form.Control placeholder="Contact No." />
+                                <Form.Control placeholder="Email" />
+                                <ButtonToolbar>
+                                  {['top'].map(placement => (
+                                    <OverlayTrigger
+                                      key={placement}
+                                      placement={placement}
+                                      overlay={
+                                        <Tooltip id={`tooltip-${placement}`}>
+                                          Get Estimate
+                                        </Tooltip>
+                                      }
+                                    >
+                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                    </OverlayTrigger>
+                                  ))}
+                                </ButtonToolbar>
+                                
                               </Form>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
                               <Form className="search-from">
-                                <Form.Control placeholder="From" />
-                                <Form.Control placeholder="To" />
-                                <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropTo" />
-                                <button><img src={SubmitBtn} alt="Submit Button" /></button>
+                              <Form.Control placeholder="Name" />
+                                <Form.Control placeholder="Contact No." />
+                                <Form.Control placeholder="Email" />
+                                <ButtonToolbar>
+                                  {['top'].map(placement => (
+                                    <OverlayTrigger
+                                      key={placement}
+                                      placement={placement}
+                                      overlay={
+                                        <Tooltip id={`tooltip-${placement}`}>
+                                          Get Estimate
+                                        </Tooltip>
+                                      }
+                                    >
+                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                    </OverlayTrigger>
+                                  ))}
+                                </ButtonToolbar>
                               </Form>
                             </Tab.Pane>
                             <Tab.Pane eventKey="third">
                               <Form className="search-from">
-                                <Form.Control placeholder="From" />
-                                <Form.Control placeholder="To" />
-                                <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropTo" />
-                                <button><img src={SubmitBtn} alt="Submit Button" /></button>
+                                <Form.Control placeholder="Name" />
+                                <Form.Control placeholder="Contact No." />
+                                <Form.Control placeholder="Email" />
+                                <ButtonToolbar>
+                                  {['top'].map(placement => (
+                                    <OverlayTrigger
+                                      key={placement}
+                                      placement={placement}
+                                      overlay={
+                                        <Tooltip id={`tooltip-${placement}`}>
+                                          Get Estimate
+                                        </Tooltip>
+                                      }
+                                    >
+                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                    </OverlayTrigger>
+                                  ))}
+                                </ButtonToolbar>
                               </Form>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fourth">
                               <Form className="search-from">
-                                <Form.Control placeholder="From" />
-                                <Form.Control placeholder="To" />
-                                <Form.Control placeholder="PickUp" />
-                                <Form.Control placeholder="DropTo" />
-                                <button><img src={SubmitBtn} alt="Submit Button" /></button>
+                                <Form.Control placeholder="Name" />
+                                <Form.Control placeholder="Contact No." />
+                                <Form.Control placeholder="Email" />
+                                <ButtonToolbar>
+                                  {['top'].map(placement => (
+                                    <OverlayTrigger
+                                      key={placement}
+                                      placement={placement}
+                                      overlay={
+                                        <Tooltip id={`tooltip-${placement}`}>
+                                          Get Estimate
+                                        </Tooltip>
+                                      }
+                                    >
+                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                    </OverlayTrigger>
+                                  ))}
+                                </ButtonToolbar>
                               </Form>
                             </Tab.Pane>
                           </Tab.Content>

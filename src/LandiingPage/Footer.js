@@ -33,7 +33,7 @@ class Footer extends Component {
                             <ul>
                                 <li><a href="https://www.facebook.com/Global-Tourism-Resorts-108930407321637/"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.instagram.com/viky_global/"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="javascripitvoid(0);"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://plus.google.com/u/2/100451838726989962719"><i class="fab fa-google-plus-g"></i></a></li>
                                 <li><a href="https://twitter.com/VikramK61128786"><i class="fab fa-twitter"></i></a></li>
                             </ul>
                         </div>
