@@ -441,9 +441,12 @@ footer{
   background-repeat: no-repeat;
 }
 
-.address-block ul li:nth-child(1){
+.address-block ul li:nth-child(1) {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 800;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .address-block ul li:nth-child(2){
