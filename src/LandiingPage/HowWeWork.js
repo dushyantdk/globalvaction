@@ -12,9 +12,7 @@ class HowWeWork extends Component {
                     <div className="col-lg-9">
                         <div className="how-we-title">
                             <h2>HOW WE <span>WORK</span></h2>
-                            <p className="font-14">You come to us with a plan to your holiday or business destination or your trip planner sends us your needs and we assign our vehicles and our chauffeur with you. 
-Our drivers are uniformed, fully licensed and are trained to the highest standards. We can help you to save time and money. Our main idea is based on linking drivers and passengers and best route for enjoyable touring experience.
-</p>
+                            <p className="font-14">All you need is to tell us the dates and your itinerary. We do the rest. Right from planning transportation, our dedicated team of experts will make sure the trip is a smooth ride for you and your family. A 24*7 onsite team is dedicated for the clients until we drop them to their drop location. </p>
                         </div>
                     </div>
                 </div>
@@ -26,9 +24,7 @@ Our drivers are uniformed, fully licensed and are trained to the highest standar
                             </div>
                             <div className="work-info">
                                 <h3>YOUR TRIP PLAN</h3>
-                                <p>
-                                You have a plan for your favourite destination city and we align cab and chauffeur with your needs
-                                </p>
+                                <p> You have a plan for your favourite destination and we align cab and chauffeur for care-free travel</p>
                             </div>
                         </div>
                     </div>
@@ -39,9 +35,7 @@ Our drivers are uniformed, fully licensed and are trained to the highest standar
                             </div>
                             <div className="work-info">
                                 <h3>CONTACT YOU</h3>
-                                <p>
-                                We will message you and your trip planner, our chauffeur will call you and finalise pickup location
-                                </p>
+                                <p>We will message you and your trip planner, our chauffeur will call you and finalise pickup location</p>
                             </div>
                         </div>
                     </div>
@@ -52,9 +46,7 @@ Our drivers are uniformed, fully licensed and are trained to the highest standar
                             </div>
                             <div className="work-info">
                                 <h3>ENJOY YOUR TRAVEL</h3>
-                                <p>
-                                Our trained chauffeur will with you for your whole trip and let all road hassles on us
-                                </p>
+                                <p>Our trained chauffeur will follow your trip plan and take you to all must visit sites</p>
                             </div>
                         </div>
                     </div>

@@ -16,9 +16,9 @@ class SearchSection extends Component {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="search-bg">
-                    <figure>
+                    {/* <figure>
                       <img src={CarYellow} alt="CarYellow" />
-                    </figure>
+                    </figure> */}
                     <div className="form-block">
                     <Tab.Container defaultActiveKey="first">
                       <Row>
@@ -42,91 +42,198 @@ class SearchSection extends Component {
                           <Tab.Content>
                             <Tab.Pane eventKey="first">
                               <Form className="search-from">
-                                <Form.Control placeholder="Name" />
-                                <Form.Control placeholder="Contact No." />
-                                <Form.Control placeholder="Email" />
-                                <ButtonToolbar>
-                                  {['top'].map(placement => (
-                                    <OverlayTrigger
-                                      key={placement}
-                                      placement={placement}
-                                      overlay={
-                                        <Tooltip id={`tooltip-${placement}`}>
-                                          Get Estimate
-                                        </Tooltip>
-                                      }
-                                    >
-                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
-                                    </OverlayTrigger>
-                                  ))}
-                                </ButtonToolbar>
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="From" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="To" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="PickUp" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="DropUp" />
+                                </Form.Group>
+                              </Form.Row>
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="Name" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Contact No" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Email" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <ButtonToolbar>
+                                    {['top'].map(placement => (
+                                      <OverlayTrigger
+                                        key={placement}
+                                        placement={placement}
+                                        overlay={
+                                          <Tooltip id={`tooltip-${placement}`}>
+                                            Get Estimate
+                                          </Tooltip>
+                                        }
+                                      >
+                                        <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                      </OverlayTrigger>
+                                    ))}
+                                  </ButtonToolbar>
+                                </Form.Group>
+                              </Form.Row>
+                                
+                               
                                 
                               </Form>
                             </Tab.Pane>
                             <Tab.Pane eventKey="second">
-                              <Form className="search-from">
-                              <Form.Control placeholder="Name" />
-                                <Form.Control placeholder="Contact No." />
-                                <Form.Control placeholder="Email" />
-                                <ButtonToolbar>
-                                  {['top'].map(placement => (
-                                    <OverlayTrigger
-                                      key={placement}
-                                      placement={placement}
-                                      overlay={
-                                        <Tooltip id={`tooltip-${placement}`}>
-                                          Get Estimate
-                                        </Tooltip>
-                                      }
-                                    >
-                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
-                                    </OverlayTrigger>
-                                  ))}
-                                </ButtonToolbar>
+                            <Form className="search-from">
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="From" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="To" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="PickUp" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="DropUp" />
+                                </Form.Group>
+                              </Form.Row>
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="Name" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Contact No" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Email" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <ButtonToolbar>
+                                    {['top'].map(placement => (
+                                      <OverlayTrigger
+                                        key={placement}
+                                        placement={placement}
+                                        overlay={
+                                          <Tooltip id={`tooltip-${placement}`}>
+                                            Get Estimate
+                                          </Tooltip>
+                                        }
+                                      >
+                                        <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                      </OverlayTrigger>
+                                    ))}
+                                  </ButtonToolbar>
+                                </Form.Group>
+                              </Form.Row>
+                                
+                               
+                                
                               </Form>
                             </Tab.Pane>
                             <Tab.Pane eventKey="third">
-                              <Form className="search-from">
-                                <Form.Control placeholder="Name" />
-                                <Form.Control placeholder="Contact No." />
-                                <Form.Control placeholder="Email" />
-                                <ButtonToolbar>
-                                  {['top'].map(placement => (
-                                    <OverlayTrigger
-                                      key={placement}
-                                      placement={placement}
-                                      overlay={
-                                        <Tooltip id={`tooltip-${placement}`}>
-                                          Get Estimate
-                                        </Tooltip>
-                                      }
-                                    >
-                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
-                                    </OverlayTrigger>
-                                  ))}
-                                </ButtonToolbar>
+                            <Form className="search-from">
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="From" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="To" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="PickUp" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="DropUp" />
+                                </Form.Group>
+                              </Form.Row>
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="Name" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Contact No" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Email" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <ButtonToolbar>
+                                    {['top'].map(placement => (
+                                      <OverlayTrigger
+                                        key={placement}
+                                        placement={placement}
+                                        overlay={
+                                          <Tooltip id={`tooltip-${placement}`}>
+                                            Get Estimate
+                                          </Tooltip>
+                                        }
+                                      >
+                                        <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                      </OverlayTrigger>
+                                    ))}
+                                  </ButtonToolbar>
+                                </Form.Group>
+                              </Form.Row>
+                                
+                               
+                                
                               </Form>
                             </Tab.Pane>
                             <Tab.Pane eventKey="fourth">
-                              <Form className="search-from">
-                                <Form.Control placeholder="Name" />
-                                <Form.Control placeholder="Contact No." />
-                                <Form.Control placeholder="Email" />
-                                <ButtonToolbar>
-                                  {['top'].map(placement => (
-                                    <OverlayTrigger
-                                      key={placement}
-                                      placement={placement}
-                                      overlay={
-                                        <Tooltip id={`tooltip-${placement}`}>
-                                          Get Estimate
-                                        </Tooltip>
-                                      }
-                                    >
-                                      <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
-                                    </OverlayTrigger>
-                                  ))}
-                                </ButtonToolbar>
+                            <Form className="search-from">
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="From" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="To" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="PickUp" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="DropUp" />
+                                </Form.Group>
+                              </Form.Row>
+                              <Form.Row>
+                                <Form.Group className="col-lg-3" controlId="formGridEmail">
+                                  <Form.Control type="email" placeholder="Name" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Contact No" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <Form.Control type="password" placeholder="Email" />
+                                </Form.Group>
+                                <Form.Group className="col-lg-3" controlId="formGridPassword">
+                                  <ButtonToolbar>
+                                    {['top'].map(placement => (
+                                      <OverlayTrigger
+                                        key={placement}
+                                        placement={placement}
+                                        overlay={
+                                          <Tooltip id={`tooltip-${placement}`}>
+                                            Get Estimate
+                                          </Tooltip>
+                                        }
+                                      >
+                                        <button><img src={SubmitBtn} alt="Submit Button" title="Get Estimate" /></button>
+                                      </OverlayTrigger>
+                                    ))}
+                                  </ButtonToolbar>
+                                </Form.Group>
+                              </Form.Row>
+                                
+                               
+                                
                               </Form>
                             </Tab.Pane>
                           </Tab.Content>

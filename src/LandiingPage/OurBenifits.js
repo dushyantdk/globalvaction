@@ -26,7 +26,7 @@ class OurBenifits extends Component {
               <div className="benefits-colm">
                 <img src={FixedPrice} alt="Fixed Price" />	
                 <h3>Spirited Rates</h3>	
-                <p>BEST PRICE GUARANTEE for hospitable services</p>
+                <p>BEST PRICE GUARANTEE</p>
               </div>
             </div>
             <div className="col-md-4">
@@ -40,7 +40,7 @@ class OurBenifits extends Component {
               <div className="benefits-colm">
                 <img src={GpsIcon} alt="100% Pleasure" />	
                 <h3>GPS Monitoring</h3>	
-                <p>24X7 in our office by dedicated staff for security of guest</p>
+                <p>24X7 in our office by dedicated staff for SAFETY of guests</p>
               </div>
             </div>
           </div>		
@@ -49,7 +49,7 @@ class OurBenifits extends Component {
               <div className="benefits-colm">
                 <img src={Nationwide} alt="Nationwide" />	
                 <h3>Professional</h3>	
-                <p>Well-mannered & uniformed chauffeurs</p>
+                <p>Courteous, well mannered & uniformed Chauffeurs</p>
               </div>
             </div>
             <div className="col-md-4">
