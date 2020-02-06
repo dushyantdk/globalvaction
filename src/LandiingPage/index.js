@@ -7,6 +7,7 @@ import HowWeWork from './HowWeWork';
 import Testimonial from './Testimonial';
 import Clients from './Clients';
 import Footer from './Footer';
+import ThingtoDo from './ThingtoDo';
 
 
 class LandiingPage extends Component {
@@ -17,6 +18,7 @@ class LandiingPage extends Component {
           <SearchSection/>
           <WhyWeUs/>
           <OurBenifits/>
+          <ThingtoDo/>
           <HowWeWork/>
           <Testimonial/>
           <Clients/>

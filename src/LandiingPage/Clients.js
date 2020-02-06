@@ -3,6 +3,7 @@ import ClientIcon1 from '../img/maketrip.jpg';
 import ClientIcon2 from '../img/oyo.jpg';
 import ClientIcon3 from '../img/thomas.jpg';
 import ClientIcon4 from '../img/yatra.jpg';
+import Timesofindia from '../img/timesofindia.jpg';
 
 class Clients extends Component {
   render() {
@@ -23,6 +24,7 @@ class Clients extends Component {
                             <li><img src={ClientIcon2} alt="" /></li>
                             <li><img src={ClientIcon3} alt="" /></li>
                             <li><img src={ClientIcon4} alt="" /></li>
+                            <li><img src={Timesofindia} alt="" /></li>
                         </ul>
                     </div>
                 </div>

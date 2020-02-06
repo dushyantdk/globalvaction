@@ -68,13 +68,6 @@ class TestimonialSlide extends Component {
                 <p className="font-32">27 December, 2019</p>
                 <p>We loved the way chauffeur of Global drove us in snow and with so easiness on highest sea level roads of the world. They know Himachal very well and will provided us with good services and they had songs in our language also. Good Job. </p>
             </div>
-            <div className="item">
-                <h3>SARASVINI</h3>
-                <p className="font-32">30 May, 2018</p>
-                <p>
-                Good experience and we enjoyed it. I was satisfied that our itinerary was followed and even we were given extra awareness of the area we were travelling. Global tours has good cars and many also because our driver has so many colleagues visiting with travellers to the same location we were visiting. 
-                </p>
-            </div>
         </OwlCarousel>
         </div>
     );
