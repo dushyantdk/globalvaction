@@ -13,7 +13,7 @@ class Clients extends Component {
                 <div className="row justify-content-center text-center mb-5">
                     <div className="col-lg-9">
                         <div className="how-we-title">
-                            <h2>OUR <span>LINKAGES</span></h2>
+                            <h2>Our <span>Prestigious</span> Clients</h2>
                         </div>
                     </div>
                 </div>
