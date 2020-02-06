@@ -567,6 +567,41 @@ footer{
   transition: .2s ease all;
   transform: scale(1.1);
 }
+.thingstodo {
+  background: #f8f8f8;
+  padding: 70px 0;
+}
+
+.singleWedo {
+  background: #fff;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.wedoImg img {
+  width: 100%;
+  height: auto;
+}
+
+.text-block {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 380px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-block h2 {
+  color:#ffba00;
+}
+
+.text-block h2 span {
+  color:#084484;
+}
 
 @media screen and (max-width: 1024px) {
 .banner-home .banner-box h1{
