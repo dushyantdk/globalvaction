@@ -56,7 +56,7 @@ p {
   border-radius: 50px;
   text-align: center;
   line-height: 51px;
-  color:#084484;
+  color: #084484 !important;
   font-size: 14px;
   margin: 25px 0 0;
 }
@@ -109,7 +109,7 @@ p {
 }
 
 .search-bg{
-  background:#fdb531;
+  background:#ffe303;
 text-align: center;
 position: relative;
 margin-top: -150px;
@@ -185,7 +185,7 @@ padding-top: 40px;
 }
 
 .why-title h2 span{
-  color: #ffba00;
+  color: #ffe303;
 }
 
 .wh-block h4{
@@ -276,7 +276,7 @@ padding-top: 40px;
 }
 
 .how-we-work h2{
-  color: #ffba00;
+  color: #ffe303;
 }
 .how-we-work h2 span{
   color: #084484;
@@ -533,7 +533,7 @@ footer{
 }
 
 .clients h2{
-  color: #ffba00;
+  color: #ffe303;
 }
 .clients h2 span{
   color: #084484;
@@ -596,11 +596,33 @@ footer{
 }
 
 .text-block h2 {
-  color:#ffba00;
+  color:#ffe303;
 }
 
 .text-block h2 span {
   color:#084484;
+}
+
+.travel-partner-section{
+  padding: 100px 0 0;
+  position: relative;
+}
+
+.travel-partner{
+  background-image: url(./img/travel-partner.jpg);
+  padding: 100px 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.travel-partner h3, .travel-partner h2{
+  color: #fff;
+}
+
+.travel-partner h3 span{
+  color: #ffe303;
 }
 
 @media screen and (max-width: 1024px) {
