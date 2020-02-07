@@ -632,7 +632,9 @@ footer{
 }
 
 @media screen and (max-width: 990px) {
-
+  .search-bg{
+    margin-top: -100px;
+  }
   .mobile-reverse{
     flex-flow: column-reverse;
   }
