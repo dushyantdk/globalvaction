@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Banner from './Banner';
 import SearchSection from './SearchSection';
+import Travelpartner from './Travelpartner';
 import WhyWeUs from './WhyWeUs';
 import OurBenifits from './OurBenifits';
 import HowWeWork from './HowWeWork';
@@ -16,6 +17,7 @@ class LandiingPage extends Component {
         <div> 
           <Banner/>
           <SearchSection/>
+          <Travelpartner/>
           <WhyWeUs/>
           <OurBenifits/>
           <ThingtoDo/>
