@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['first_tab'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "dushyantcreate@gmail.com";
+    $email_to = "19chetan87sharma@gmail.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
@@ -393,9 +393,6 @@ if(isset($_POST['contactus'])) {
     $error_message .= 'Name you entered does not appear to be valid.<br />';
   }
  
-  if(!preg_match($string_exp,$phone)) {
-    $error_message .= 'Phone you entered does not appear to be valid.<br />';
-  }
  
   if(strlen($email_from) < 2) {
     $error_message .= 'The email you entered do not appear to be valid.<br />';
