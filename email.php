@@ -77,7 +77,7 @@ if(isset($_POST['first_tab'])) {
     $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
     $headers .= "X-Priority: 3\r\n";
     $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
-    @mail($email_to, $email_subject, $email_message, $headers);  
+    @mail($email_to, $email_subject, $email_message, $headers); 
 ?>
  
 <!-- include your own success html here -->
