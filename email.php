@@ -433,5 +433,5 @@ Thank you for contacting us. We will be in touch with you very soon.
  
 }
 
-header("Location:http://wpexpertsplugins.com/global-html/?success=1");
+header("Location:http://globalvaction.herokuapp.com/?success=1");
 ?>
