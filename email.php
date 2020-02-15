@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['first_tab'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "19chetan87sharma@gmail.com";
+    $email_to = "dushyantcreate@gmail.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
