@@ -61,7 +61,7 @@ p {
   margin: 25px 0 0;
 }
 .banner-home {
-  background: url(./img/home-banner.jpg) top center no-repeat;
+  background: url(../img/home-banner.jpg) top center no-repeat;
   background-size: auto;
   background-size: cover;
 }
@@ -121,7 +121,7 @@ padding-top: 40px;
   content: "";
   left: 0;
   bottom: -30px;
-  background: url(./img/left-shadow.png) no-repeat left bottom;
+  background: url(../img/left-shadow.png) no-repeat left bottom;
   width: 375px;
   height: 30px;
 }
@@ -131,7 +131,7 @@ padding-top: 40px;
   content: "";
   right: 0;
   bottom: -30px;
-  background: url(./img/right-shadow.png) no-repeat right bottom;
+  background: url(../img/right-shadow.png) no-repeat right bottom;
   width: 375px;
   height: 30px;
 }
@@ -177,7 +177,7 @@ padding-top: 40px;
 .why-we-us{
   padding:100px 0 50px;
   position: relative;
-  background-image: url(./img/how-we-bg.png);
+  background-image: url(../img/how-we-bg.png);
 }
 
 .why-title h2{
@@ -233,7 +233,7 @@ padding-top: 40px;
   padding-bottom: 50px;
 }
 .our-benefits {
-  background: url(./img/our-benefits-banner.jpg) center center no-repeat;
+  background: url(../img/our-benefits-banner.jpg) center center no-repeat;
   background-size: auto;
   background-size: cover;
   padding:50px 0 10px;
@@ -361,7 +361,7 @@ padding-top: 40px;
 }
 
 .testimonial-bg{
-  background-image: url(./img/testi.jpg);
+  background-image: url(../img/testi.jpg);
   background-repeat: no-repeat;
   height: 500px;
   width: 100%;
@@ -399,7 +399,7 @@ padding-top: 40px;
 }
 
 footer{
-  background-image: url(./img/footer-bg.jpg);
+  background-image: url(../img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0;
@@ -452,15 +452,15 @@ footer{
 }
 
 .address-block ul li:nth-child(2){
-  background-image: url(./img/map-pin.png);
+  background-image: url(../img/map-pin.png);
 }
 
 .address-block ul li:nth-child(3), .address-block ul li:nth-child(4){
-  background-image: url(./img/call.png);
+  background-image: url(../img/call.png);
 }
 
 .address-block ul li:last-child{
-  background-image: url(./img/mail.png);
+  background-image: url(../img/mail.png);
 }
 
 .address-block ul li:last-child a{
@@ -609,7 +609,7 @@ footer{
 }
 
 .travel-partner{
-  background-image: url(./img/travel-partner.jpg);
+  background-image: url(../img/travel-partner.jpg);
   padding: 100px 20px;
   background-repeat: no-repeat;
   background-size: cover;
