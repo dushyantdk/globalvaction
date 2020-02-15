@@ -1,0 +1,7 @@
+[15-Feb-2020 03:13:57 UTC] PHP Notice:  Undefined variable: first_name in /home/etig3vuxohd2/public_html/global-html/email.php on line 48
+[15-Feb-2020 03:13:57 UTC] PHP Notice:  Undefined variable: last_name in /home/etig3vuxohd2/public_html/global-html/email.php on line 52
+[15-Feb-2020 03:13:57 UTC] PHP Notice:  Undefined variable: comments in /home/etig3vuxohd2/public_html/global-html/email.php on line 56
+[15-Feb-2020 03:18:30 UTC] PHP Notice:  Undefined variable: last_name in /home/etig3vuxohd2/public_html/global-html/email.php on line 52
+[15-Feb-2020 03:21:57 UTC] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/etig3vuxohd2/public_html/global-html/email.php on line 21
+[15-Feb-2020 03:26:23 UTC] PHP Notice:  Undefined variable: last_name in /home/etig3vuxohd2/public_html/global-html/email.php on line 45
+[15-Feb-2020 04:23:16 UTC] PHP Notice:  Undefined variable: phone in /home/etig3vuxohd2/public_html/global-html/email.php on line 396
