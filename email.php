@@ -90,7 +90,7 @@ Thank you for contacting us. We will be in touch with you very soon.
 
 if(isset($_POST['second_tab'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "19chetan87sharma@gmail.com";
+    $email_to = "dushyantcreate@gmail.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
@@ -179,7 +179,7 @@ Thank you for contacting us. We will be in touch with you very soon.
 
 if(isset($_POST['third_tab'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "19chetan87sharma@gmail.com";
+    $email_to = "dushyantcreate@gmail.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
@@ -268,7 +268,7 @@ Thank you for contacting us. We will be in touch with you very soon.
 
 if(isset($_POST['fourth_tab'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "19chetan87sharma@gmail.com";
+    $email_to = "dushyantcreate@gmail.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
@@ -357,7 +357,7 @@ Thank you for contacting us. We will be in touch with you very soon.
 
 if(isset($_POST['contactus'])) {
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "19chetan87sharma@gmail.com";
+    $email_to = "dushyantcreate@gmail.com";
     $email_subject = "Your email subject line";
  
     function died($error) {
