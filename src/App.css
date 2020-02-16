@@ -631,6 +631,10 @@ footer{
   text-align: left;
 }
 
+.footer-lst-links a{
+  color: #fff;
+}
+
 @media screen and (max-width: 1024px) {
 .banner-home .banner-box h1{
   font-size: 30px;

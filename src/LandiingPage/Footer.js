@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Nav} from 'react-bootstrap';
 import ContactFrom from './ContactFrom';
+import Privacypolciy from '../img/OurPrivacyPolicy.pdf';
 
 class Footer extends Component {
   render() {
@@ -41,6 +42,12 @@ class Footer extends Component {
                     </div>
                     <div className="col-lg-6">
                         <ContactFrom/>
+                        
+                    </div>
+                </div>
+                <div className="row footer-lst-links">
+                    <div className="col-lg-12 text-center">
+                        <a href={Privacypolciy} target="_blank">Privacy-Policy</a>
                     </div>
                 </div>
             </div>
