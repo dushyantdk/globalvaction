@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import { Form, Button} from 'react-bootstrap';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
@@ -23,7 +24,23 @@ const ContactFrom = () => {
           .required('Required'),
       }),
       onSubmit: values => {
-        alert(JSON.stringify(values, null, 2));
+        const messageHtml =  '';
+        axios({
+          method: "POST",
+          url:"http://localhost:8080/contact-mail",
+          data: JSON.stringify(values, null, 2),
+          headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+          }
+        }).then((response)=>{
+          if (response.data.msg === 'success') {
+              alert("Email sent, awesome!");
+              this.resetForm()
+          } else if(response.data.msg === 'fail') {
+              alert("Oops, something went wrong. Try again")
+          }
+        })
       },
     });
     return (

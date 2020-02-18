@@ -47,7 +47,41 @@ app.post('/send-mail', (req,res) => {
         success: true,
         data: [],
         status: 200,
-        message: 'mail send successfully'
+        message: 'Query has been submitted.'
+
+    });
+});
+
+app.post('/contact-mail', (req,res) => {
+    const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+        user:  "pintukumar@ucreate.co.in",
+        pass:  "kumar@987#@!",
+    },
+    tls: {
+        ciphers:'SSLv3'
+    }
+    });
+    const mailOptions = {
+        to:'dushyantcreate@gmail.com',
+        subject: 'Contact request received',
+        html: '<table><tr><td colspan="2"><b>Please Detail:</b></td></tr><tr><td><b>Name:</b></td><td>'+req.body.firstName+'</td></tr><tr><td><b>Contact number:</b></td><td>'+req.body.Phoneno+'</td></tr><tr><td><b>Email:</b></td><td>'+req.body.email+'</td></tr><tr><td><b>Message:</b></td><td>'+req.body.message+'</td></tr></table>'
+    }
+    transporter.sendMail(mailOptions, function(error, info) {
+        if (error) {
+            // eslint-disable-next-line no-console
+            console.log('i am check error ', error);
+        } else {
+            // eslint-disable-next-line no-console
+            console.log('Email sent: ' + info.response);
+        }
+    });
+    res.json({
+        success: true,
+        data: [],
+        status: 200,
+        message: 'Contact request has been submitted.'
 
     });
 });

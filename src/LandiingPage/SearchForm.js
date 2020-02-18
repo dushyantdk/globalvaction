@@ -25,9 +25,7 @@ const SearchForm = () => {
           .required('Required'),
       }),
       onSubmit: values => {
-        alert(JSON.stringify(values, null, 2));
- 
-    const messageHtml =  '';
+        const messageHtml =  '';
         axios({
           method: "POST",
           url:"http://localhost:8080/send-mail",
