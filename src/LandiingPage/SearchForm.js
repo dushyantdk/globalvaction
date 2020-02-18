@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import {Row, Col, Tab, Nav, Form, OverlayTrigger, ButtonToolbar, Tooltip} from 'react-bootstrap';
 import SubmitBtn from '../img/submit-btn.png';
 import { useFormik } from 'formik';
@@ -25,6 +26,24 @@ const SearchForm = () => {
       }),
       onSubmit: values => {
         alert(JSON.stringify(values, null, 2));
+ 
+    const messageHtml =  '';
+        axios({
+          method: "POST",
+          url:"http://localhost:8080/send-mail",
+          data: JSON.stringify(values, null, 2),
+          headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+          }
+        }).then((response)=>{
+          if (response.data.msg === 'success') {
+              alert("Email sent, awesome!");
+              this.resetForm()
+          } else if(response.data.msg === 'fail') {
+              alert("Oops, something went wrong. Try again")
+          }
+        })
       },
     });
     return (
