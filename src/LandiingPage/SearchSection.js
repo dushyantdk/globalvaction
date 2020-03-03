@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import CarYellow from '../img/car-image.png';
 import AddressPickup from '../img/address-pickup.png';
 import LongDistance from '../img/long-distance.png';
 import Local from '../img/local.png';
 import Airport from '../img/airport.png';
-import SubmitBtn from '../img/submit-btn.png';
-import {Row, Col, Tab, Nav, Form, OverlayTrigger, ButtonToolbar, Tooltip} from 'react-bootstrap';
+import {Row, Col, Tab, Nav} from 'react-bootstrap';
 import SearchForm from './SearchForm';
 
 

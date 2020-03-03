@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Nav} from 'react-bootstrap';
 import ContactFrom from './ContactFrom';
-import Privacypolciy from '../img/OurPrivacyPolicy.pdf';
+import {BrowserRouter as Router, Route , Switch, Link} from 'react-router-dom';
+
 
 class Footer extends Component {
   render() {
@@ -47,7 +48,7 @@ class Footer extends Component {
                 </div>
                 <div className="row footer-lst-links">
                     <div className="col-lg-12 text-center">
-                        <a href={Privacypolciy} target="_blank">Privacy-Policy</a>
+                        <Link to="/privacypolicy">Privacy-Policy</Link>
                     </div>
                 </div>
             </div>

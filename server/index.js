@@ -22,16 +22,17 @@ app.post('/send-mail', (req,res) => {
     const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user:  "pintukumar@ucreate.co.in",
-        pass:  "kumar@987#@!",
+        user:  "dushyantcreate@gmail.com",
+        pass:  "Rvmunnu2",
     },
     tls: {
         ciphers:'SSLv3'
     }
     });
     const mailOptions = {
-        to:'dushyantcreate@gmail.com',
-        subject: 'Query received',
+        to:'accounts@exploreholidays.in',
+        cc: 'vikram@exploreholidays.in',
+        subject: 'Contact request received',
         html: '<table><tr><td colspan="2"><b>Please Detail:</b></td></tr><tr><td><b>Name:</b></td><td>'+req.body.firstName+'</td></tr><tr><td><b>Contact number:</b></td><td>'+req.body.Phoneno+'</td></tr><tr><td><b>Email:</b></td><td>'+req.body.email+'</td></tr></table>'
     }
     transporter.sendMail(mailOptions, function(error, info) {
@@ -56,15 +57,16 @@ app.post('/contact-mail', (req,res) => {
     const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user:  "pintukumar@ucreate.co.in",
-        pass:  "kumar@987#@!",
+        user:  "dushyantcreate@gmail.com",
+        pass:  "Rvmunnu2",
     },
     tls: {
         ciphers:'SSLv3'
     }
     });
     const mailOptions = {
-        to:'dushyantcreate@gmail.com',
+        to:'accounts@exploreholidays.in',
+        cc: 'vikram@exploreholidays.in',
         subject: 'Contact request received',
         html: '<table><tr><td colspan="2"><b>Please Detail:</b></td></tr><tr><td><b>Name:</b></td><td>'+req.body.firstName+'</td></tr><tr><td><b>Contact number:</b></td><td>'+req.body.Phoneno+'</td></tr><tr><td><b>Email:</b></td><td>'+req.body.email+'</td></tr><tr><td><b>Message:</b></td><td>'+req.body.message+'</td></tr></table>'
     }
@@ -87,6 +89,7 @@ app.post('/contact-mail', (req,res) => {
 });
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '../build', 'index.html'));
-});app.listen(port, () => {
-    console.log('app running');
+});
+app.listen(port, () => {
+    console.log(`Server is running at port: ${port}`);
 });

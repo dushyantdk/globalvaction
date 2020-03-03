@@ -635,6 +635,20 @@ footer{
   color: #fff;
 }
 
+.privacy {
+  margin:0;
+}
+
+.privacy h3{
+  margin: 15px 0 0;
+  font-size: 18px;
+}
+
+.privacy p{
+  margin: 0 0 20px;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 1024px) {
 .banner-home .banner-box h1{
   font-size: 30px;

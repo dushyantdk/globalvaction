@@ -27,7 +27,6 @@
     "start:dev": "react-scripts start",
     "prestart": "npm run build",
     "start": "node ./server/",
-    "watch": "nodemon ./server/",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

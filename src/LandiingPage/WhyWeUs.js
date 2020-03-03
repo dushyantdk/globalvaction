@@ -4,7 +4,6 @@ import WhyIcon1 from '../img/why-icon-1.png';
 import WhyIcon2 from '../img/why-icon-2.png';
 import WhyIcon3 from '../img/why-icon-3.png';
 import WhyIcon4 from '../img/why-icon-4.png';
-import { Nav} from 'react-bootstrap';
 import Scrollchor from 'react-scrollchor';
 
 class WhyWeUs extends Component {

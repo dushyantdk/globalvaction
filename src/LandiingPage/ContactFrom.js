@@ -24,7 +24,7 @@ const ContactFrom = () => {
           .required('Required'),
       }),
       onSubmit: values => {
-        const messageHtml =  '';
+        //const messageHtml =  '';
         axios({
           method: "POST",
           url:"http://localhost:8080/contact-mail",

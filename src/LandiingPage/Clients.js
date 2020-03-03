@@ -28,6 +28,11 @@ class Clients extends Component {
                         </ul>
                     </div>
                 </div>
+                <div className="row justify-content-center text-center mb-5">
+                    <div className="col-lg-6">
+                        <p>*The above corporate logos are property of the respective companies and used for representative purpose only.</p>
+                    </div>
+                </div>
             </div>
         </section>
        );

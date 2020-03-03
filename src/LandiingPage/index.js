@@ -9,13 +9,14 @@ import Testimonial from './Testimonial';
 import Clients from './Clients';
 import Footer from './Footer';
 import ThingtoDo from './ThingtoDo';
+import Navigation from './Navigation';
 
 
 class LandiingPage extends Component {
   render() {
     return (
         <div> 
-          
+          <Navigation/>
           <Banner/>
           <SearchSection/>
           <Travelpartner/>
