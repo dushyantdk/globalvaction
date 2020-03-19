@@ -6,8 +6,9 @@ class Banner extends Component {
         <section className="banner-home">
             <div className="banner-box">
             <h1>The Global Tourism & Resorts</h1>    
-            <h2>YOUR TRUSTED TRAVEL PARTNER</h2>
-            <p className="font-16">We offer matchless services to the business and tourist travellers. Since our inception pre-independence, provided highly efficient chauffeur driven cars & coaches. We assure seamless authentic services, assuring you the best of your vacations bundled with moments to be cherished forever.</p>
+            <h2>DISCOVER YOUR VACATIONS WITH US</h2>
+            <p className="font-16">We offer matchless services to the business and tourist. Since our inception pre-independence, provided highly efficient chauffeur driven cars & coaches. We have been providing high class services which assures you the best of your vacations bundled
+with moments to be cherished forever.</p>
             </div>
         </section>
     );

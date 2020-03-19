@@ -27,7 +27,7 @@ const ContactFrom = () => {
         //const messageHtml =  '';
         axios({
           method: "POST",
-          url:"http://localhost:8080/contact-mail",
+          url:"https://exploreholidays.in/contact-mail/index.php",
           data: JSON.stringify(values, null, 2),
           headers: {
             'Content-Type': 'application/json',
@@ -93,14 +93,14 @@ const ContactFrom = () => {
         </Form.Group>
         <Form.Group controlId="formGroupemail">
         <textarea
-          id="email"
+          id="message"
           className="form-control"
-          name="email"
+          name="message"
           placeholder="Message"
-          type="email"
+          type="text"
           onChange={formik.handleChange}
           onBlur={formik.handleBlur}
-          value={formik.values.email}
+          value={formik.values.message}
         />
         </Form.Group>
         <Button className="Send-btn" variant="primary" type="submit">

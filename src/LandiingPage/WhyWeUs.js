@@ -14,8 +14,8 @@ class WhyWeUs extends Component {
                 <div className="row">
                     <div className="col-lg-8">
                         <div className="why-title">
-                            <h2>Why We <span>Are</span></h2>
-                            <p>We are one of the few Indian Travel company, who own and operate their own fleet of 150+ automobiles, all of which are less than two years old, all of which are driven by full time company employees, uniformed chauffeurs, who speak and understand workable English. Over the years, we have developed excellent working relationships with top Online Trip brands of India.</p>
+                            <h2>WHAT WE <span>ARE</span></h2>
+                            <p>We are one of the few Indian Travel companies, who own and operate their own fleet of 150+ automobiles, all of which are less than two years old, all of which are driven by full time company employees, uniformed chauffeurs, who speak and understand workable English. Over the years, we have developed excellent working relationships with top Online Trip brands of India.</p>
                         </div> 
                         <div className="row mt-4">
                             <div className="col-lg-3 col-md-6">

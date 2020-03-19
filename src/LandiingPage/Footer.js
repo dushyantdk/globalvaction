@@ -20,7 +20,7 @@ class Footer extends Component {
                         <div className="address-block">
                             <h4>VISIT US OR CALL US:</h4>
                             <ul>
-                                <li className="font-32">Global Tourism & Resorts </li>
+                                <li className="font-32">The Global Tourism & Resorts </li>
                                 <li>SCO - 188-190, Sec-34A, Ground Floor, Chandigarh</li>
                                 <li>+91 172 401 2779</li>
                                 <li>+91 8699 12370-73, 9357 580 005</li>

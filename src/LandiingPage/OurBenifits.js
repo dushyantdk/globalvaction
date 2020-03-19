@@ -26,7 +26,7 @@ class OurBenifits extends Component {
               <div className="benefits-colm">
                 <img src={FixedPrice} alt="Fixed Price" />	
                 <h3>Spirited Rates</h3>	
-                <p>BEST PRICE GUARANTEE</p>
+                <p>Best Price Guaranteed</p>
               </div>
             </div>
             <div className="col-md-4">

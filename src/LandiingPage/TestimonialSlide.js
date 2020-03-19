@@ -22,7 +22,7 @@ class TestimonialSlide extends Component {
     }
     return (
         <div  className="test-block">
-            <h2>Customer <span>Speak</span></h2>
+            <h2>Cherished Moments of our <span>Clients</span></h2>
         <OwlCarousel smartSpeed={450} responsiveRefreshRate={10} loop={true} autoplay={true} autoplayTimeout={2000}   className="owl-theme" responsive={responsiveValues} margin={15}   nav>
             <div className="item">
                 <h3>GAURISH</h3>

@@ -20,7 +20,7 @@ class ThingtoDo extends Component {
                               </div>
                               <div className="col-sm-6">
                                     <div className="text-block">
-                                      <h2>YOUR TRIP <span>PLAN</span></h2>
+                                      <h2>Your Journey<span> Plans</span></h2>
                                       <p>You have a plan for your favourite destination and we align cab and chauffeur for care-free travel</p>
                                     </div>
                               </div>   
@@ -30,7 +30,7 @@ class ThingtoDo extends Component {
                             <div className="singleWedo mobile-reverse">
                               <div className="col-sm-6">
                                     <div className="text-block">
-                                      <h2>CONTACT <span>YOU</span></h2>
+                                      <h2>Get in Touch <span>with you </span></h2>
                                       <p>We will message you and your trip planner, our chauffeur will call you and finalise pickup location</p>
                                     </div>
                               </div>
@@ -52,7 +52,7 @@ class ThingtoDo extends Component {
                                 </div>
                                 <div className="col-lg-12">
                                     <div className="text-block">
-                                      <h2>ENJOY YOUR <span>TRAVEL</span></h2>
+                                      <h2>Enjoy your <span>Journey</span></h2>
                                       <p>Our trained chauffeur will follow your trip plan and take you to all must visit sites</p>
                                     </div>
                                 </div>

@@ -8,8 +8,8 @@ class Travelpartner extends Component {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="travel-partner">
-                            <h3>YOUR HOLIDAY <span>PLANNER</span></h3>
-                            <h2>Global Tourism & Resorts</h2>
+                            <h3>DESTINATION MANAGEMENT <span>COMPANY</span></h3>
+                            <h2>The Global Tourism & Resorts</h2>
                             <a class="contact-us" href="#footer">Contact Us</a>
                         </div>
                     </div>

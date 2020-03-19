@@ -28,7 +28,7 @@ const SearchForm = () => {
         const messageHtml =  '';
         axios({
           method: "POST",
-          url:"http://localhost:8080/send-mail",
+          url:"https://exploreholidays.in/send-mail/index.php",
           data: JSON.stringify(values, null, 2),
           headers: {
             'Content-Type': 'application/json',
